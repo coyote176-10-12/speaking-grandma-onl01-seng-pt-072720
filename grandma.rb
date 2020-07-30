@@ -1,6 +1,5 @@
-speak_to_grandma(phase)
-if ""
-
+def speak_to_grandma (phase)
+if 
 
 # Write a speak_to_grandma method.
 
