@@ -1,6 +1,11 @@
-def speak_to_grandma (phase)
+def speak_to_grandma (phrase)
 if (phrase == "I LOVE YOU GRANDMA!")
   return "I LOVE YOU TOO PUMPKIN!"
+elsif (phrase == "#{phrase}".upcase)
+ return "No, Not Since  1938!"
+else 
+  return "HUH?! SPEAK UP, SONNY"
+end
 
 
 # Write a speak_to_grandma method.
@@ -16,3 +21,12 @@ if (phrase == "I LOVE YOU GRANDMA!")
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+def speak_to_grandma(phrase)
+  if(phrase=="I LOVE YOU GRANDMA!")
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif (phrase=="#{phrase}".upcase)
+    return "NO, NOT SINCE 1938!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
+  end
+end
